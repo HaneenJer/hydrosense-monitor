@@ -1,0 +1,48 @@
+.alerts-panel {
+  padding: 20px;
+}
+
+.unit-id-input {
+  margin-right: 10px;
+}
+
+.buttons-container {
+  margin-top: 10px;
+}
+
+.fetch-button {
+  margin-right: 10px;
+}
+
+.error-message {
+  color: red;
+}
+
+.alert-summary {
+  padding: 10px;
+  margin-left: 60px;
+  margin-top: 50px;
+  border-radius: 12px;
+  width: 180px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f8f5f5;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.alert-summary h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.alert-summary p {
+  margin: 4px 0;
+}
+
+.healthy-count {
+  color: #155724; /* green */
+}
+
+.unhealthy-count {
+  color: #721c24; /* red */
+}

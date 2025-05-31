@@ -1,0 +1,22 @@
+.alerts-table {
+  margin-top: 20px;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.alerts-table th,
+.alerts-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.healthy-row {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.unhealthy-row {
+  background-color: #f8d7da;
+  color: #721c24;
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f5f5;
+  font-family: "Neucha", cursive;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #0a934b;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 80px;   
+  height: auto;  
+}
+
+.main-content {
+  display: flex;
+  /* flex: 1; */
+  width: 100%;
+  margin-top: -50px;
+}
+
+.first-half {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 20px;
+  justify-content: flex-start;
+  margin-left: 50px;
+  margin-right: -100px;
+}
+
+.plant-image {
+  max-width: 60%;
+  max-height: 80%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sec-half {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #0a934b;
+  margin-left: -200px;
+}
+
+.sec-half h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.sec-half p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.features{
+  background-color: #f8f5f5;
+}
