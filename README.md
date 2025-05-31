@@ -55,6 +55,10 @@ You can monitor the readings and keep an eye on your pods that need attention.
     
    Open http://localhost:5173 to view the dashboard.
 
+## CI pipeline
+ Included in this project a github action workflow.  
+ -Installs and tests the backend
+ -Installs, tests, and builds the frontend 
 
 ##  Decisions
 ### Backend Design Decisions
