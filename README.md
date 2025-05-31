@@ -7,9 +7,16 @@ You can monitor the readings and keep an eye on your pods that need attention.
 
 ## Features
 
- ### 📡 Collect sensor readings
+ ### 📡 Fetch sensor readings and send Random readings
  ### ⚙️ Analyze readings to identify latest units that need your attention
  ### 📊 Displays alerts in a user-friendly dashboard
+
+### Fetch Alerts
+ <img src="fetchAlerts.gif" width="700"/>
+
+### Send Random reading
+<img src="randomReading.gif" width="700"/>
+
    
 ##  Technology Stack
     Frontend: React, Vite, Typescript ,HTML, CSS
